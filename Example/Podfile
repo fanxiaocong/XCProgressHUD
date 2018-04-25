@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCProgressHUD_Example' do
+  pod 'XCProgressHUD', :path => '../'
+
+  target 'XCProgressHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
