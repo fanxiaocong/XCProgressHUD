@@ -1,0 +1,27 @@
+{
+  "name": "XCProgressHUD",
+  "version": "0.1.0",
+  "summary": "A short description of XCProgressHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanxiaocong/XCProgressHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanxiaocong": "1016697223@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanxiaocong/XCProgressHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XCProgressHUD/Classes/**/*",
+  "dependencies": {
+    "JGProgressHUD": [
+      "~> 2.0.2"
+    ]
+  }
+}

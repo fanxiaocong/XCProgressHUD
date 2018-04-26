@@ -1,0 +1,19 @@
+PODS:
+  - JGProgressHUD (2.0.2)
+  - XCProgressHUD (0.1.0):
+    - JGProgressHUD (~> 2.0.2)
+
+DEPENDENCIES:
+  - XCProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  XCProgressHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
+  XCProgressHUD: 7106b08ee5d7ef873e0f8fa1cabe9a1e9cb1193f
+
+PODFILE CHECKSUM: a6d7dca77bb4319f49e3540d7e2f7bd5cfca75ba
+
+COCOAPODS: 1.4.0
