@@ -1,8 +1,8 @@
 {
   "name": "XCProgressHUD",
-  "version": "0.1.0",
-  "summary": "A short description of XCProgressHUD.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.2",
+  "summary": "基于JGProgressHUD，封装了几款简单的提示框",
+  "description": "XCProgressHUD，基于JGProgressHUD，封装了几款简单的提示框",
   "homepage": "https://github.com/fanxiaocong/XCProgressHUD",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/fanxiaocong/XCProgressHUD.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "XCProgressHUD/Classes/**/*",
   "dependencies": {
