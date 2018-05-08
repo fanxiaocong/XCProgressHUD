@@ -40,12 +40,9 @@
     HUD.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.4f];
     HUD.HUDView.backgroundColor = [UIColor blackColor];
     HUD.HUDView.alpha = 0.8f;
-    HUD.HUDView.layer.shadowColor = [UIColor blackColor].CGColor;
-    HUD.HUDView.layer.shadowOffset = CGSizeZero;
-    HUD.HUDView.layer.shadowOpacity = 0.4f;
-    HUD.HUDView.layer.shadowRadius = 8.0f;
     HUD.textLabel.font = [UIFont systemFontOfSize:15];
-    HUD.square = YES;
+    HUD.shadow = [JGProgressHUDShadow shadowWithColor:[UIColor blackColor] offset:CGSizeZero radius:8.0 opacity:0.4f];
+    HUD.square = NO;
     
     return HUD;
 }
