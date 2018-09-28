@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCProgressHUD'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '基于JGProgressHUD，封装了几款简单的提示框'
   
   s.description      = <<-DESC
