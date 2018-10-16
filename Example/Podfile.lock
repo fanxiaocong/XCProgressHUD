@@ -1,13 +1,13 @@
 PODS:
   - JGProgressHUD (2.0.2)
-  - XCProgressHUD (0.0.2):
+  - XCProgressHUD (0.0.4):
     - JGProgressHUD (~> 2.0.2)
 
 DEPENDENCIES:
   - XCProgressHUD (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - JGProgressHUD
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
-  XCProgressHUD: 26ba8852a03d9c9cc7f834e2ebb2d9ea20f7d57b
+  XCProgressHUD: 8e957b74fe58c5a4f78ee7aec446aba55f6d1e4e
 
 PODFILE CHECKSUM: a6d7dca77bb4319f49e3540d7e2f7bd5cfca75ba
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

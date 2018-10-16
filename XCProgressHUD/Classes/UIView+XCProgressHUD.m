@@ -37,7 +37,7 @@
     JGProgressHUD *HUD = [[JGProgressHUD alloc] initWithStyle:JGProgressHUDStyleDark];
     HUD.interactionType = JGProgressHUDInteractionTypeBlockAllTouches;
     HUD.animation = [[JGProgressHUDFadeAnimation alloc] init];
-    HUD.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.4f];
+//    HUD.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.4f];
     HUD.HUDView.backgroundColor = [UIColor blackColor];
     HUD.HUDView.alpha = 0.8f;
     HUD.textLabel.font = [UIFont systemFontOfSize:15];
